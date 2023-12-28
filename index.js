@@ -7,8 +7,10 @@ const { get } = require("./src/controllers/get");
 const { getById } = require("./src/controllers/getById");
 const { getByEmail } = require("./src/controllers/getByEmail");
 const { validator } = require("./src/controllers/validate");
-const { strictCreate } = require("./src/controllers/strictCreate");
+const { createStrict } = require("./src/controllers/createStrict");
 const { getPaginated } = require("./src/controllers/pagination");
+const { createSecure } = require("./src/controllers/createSecure");
+const { verifyPassword } = require("./src/controllers/verifyPassword");
 
 module.exports = {
   config,
@@ -19,6 +21,8 @@ module.exports = {
   getById,
   getByEmail,
   validator,
-  strictCreate,
+  createStrict,
   getPaginated,
+  createSecure,
+  verifyPassword,
 };

@@ -9,10 +9,10 @@ const { validator } = require("./validate");
  * @param {Object} validationSchema - Validation schema for user data.
  * @returns {Promise} - Resolves with the created user.
  */
-async function strictCreate(model, userData, validationSchema) {
+async function createStrict(model, userData, validationSchema) {
   try {
     if (!model) {
-      console.error("🚨 At strictCreate()");
+      console.error("🚨 At createStrict()");
       console.error(
         "🚨 Model not loaded! Kindly provide the user model as a param"
       );
@@ -37,5 +37,5 @@ async function strictCreate(model, userData, validationSchema) {
 }
 
 module.exports = {
-  strictCreate,
+  createStrict,
 };

@@ -72,7 +72,7 @@ const userModel = mongoose.model("user", userSchema);
 //   };
 
 //   // Create a new user with dynamic validation
-//   const newUserWithValidation = await ezuser.strictCreate(
+//   const newUserWithValidation = await ezuser.createStrict(
 //     userModel,
 //     {
 //       name: "John Doe",
@@ -101,7 +101,7 @@ const userModel = mongoose.model("user", userSchema);
 //   };
 
 //   // Create a new user with dynamic validation
-//   const newUserWithValidation = await ezuser.strictCreate(
+//   const newUserWithValidation = await ezuser.createStrict(
 //     userModel,
 //     {
 //       name: "John Doe",
