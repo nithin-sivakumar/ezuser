@@ -4,7 +4,7 @@
   "description": "Ezuser is a lightweight package for MERN projects, providing easy-to-use functions for user management, authentication, avatar handling, and more. Streamline user operations with simplicity and security.",
   "main": "index.js",
   "scripts": {
-    "start": "node client/test.js"
+    "start": "node client/paginationTest.js"
   },
   "repository": {
     "type": "git",
