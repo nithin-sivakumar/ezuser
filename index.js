@@ -19,6 +19,8 @@ const { loginByPhone } = require("./src/services/auth/phoneLogin");
 const { loginByUsername } = require("./src/services/auth/usernameLogin");
 const { authenticateToken } = require("./src/services/authToken/authenticate");
 
+// console.log("Thank you for using this package");
+
 module.exports = {
   config,
   create,
