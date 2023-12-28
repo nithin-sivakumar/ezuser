@@ -11,6 +11,8 @@ const { createStrict } = require("./src/controllers/createStrict");
 const { getPaginated } = require("./src/controllers/pagination");
 const { createSecure } = require("./src/controllers/createSecure");
 const { verifyPassword } = require("./src/controllers/verifyPassword");
+const { getActive } = require("./src/controllers/getActive");
+const { softDelete } = require("./src/controllers/softDelete");
 
 module.exports = {
   config,
@@ -25,4 +27,6 @@ module.exports = {
   getPaginated,
   createSecure,
   verifyPassword,
+  getActive,
+  softDelete,
 };
