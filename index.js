@@ -14,6 +14,10 @@ const { verifyPassword } = require("./src/controllers/verifyPassword");
 const { getActive } = require("./src/controllers/getActive");
 const { softDelete } = require("./src/controllers/softDelete");
 const { getByQuery } = require("./src/controllers/getByQuery");
+const { loginByEmail } = require("./src/services/auth/emailLogin");
+const { loginByPhone } = require("./src/services/auth/phoneLogin");
+const { loginByUsername } = require("./src/services/auth/usernameLogin");
+const { authenticateToken } = require("./src/services/authToken/authenticate");
 
 module.exports = {
   config,
@@ -31,4 +35,8 @@ module.exports = {
   getActive,
   softDelete,
   getByQuery,
+  loginByEmail,
+  loginByPhone,
+  loginByUsername,
+  verifyToken: authenticateToken,
 };
