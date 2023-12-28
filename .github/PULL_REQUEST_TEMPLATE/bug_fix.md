@@ -1,3 +1,6 @@
+{{#labels}}
+{{#bug}}
+
 ## Bug Fix
 
 ### Description
@@ -18,3 +21,6 @@
 ### Screenshots (if applicable)
 
 <!-- Include screenshots or code snippets to demonstrate the bug. -->
+
+{{/bug}}
+{{/labels}}

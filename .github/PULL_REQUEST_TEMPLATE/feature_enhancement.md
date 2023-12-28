@@ -1,25 +1,26 @@
+{{#labels}}
+{{#enhancement}}
+
 ## Feature Enhancement
 
 ### Description
 
-<!-- Provide a clear and concise description of the feature enhancement you're proposing. -->
+<!-- Provide a clear and concise description of the feature or enhancement. -->
 
 ### Checklist
 
 - [ ] I have tested my changes thoroughly.
 - [ ] I have updated the documentation.
-- [ ] My changes do not break existing functionality.
-- [ ] I have added relevant test cases.
-- [ ] I have considered and addressed potential edge cases.
+- [ ] My changes do not introduce new issues.
+- [ ] I have added relevant test cases (if applicable).
 
-### Implementation Details
+### Steps to Reproduce (if applicable)
 
-<!-- Describe the technical details of your implementation. -->
+<!-- Provide steps to reproduce the bug, if possible. -->
 
 ### Screenshots (if applicable)
 
-<!-- Include screenshots or code snippets to demonstrate the new feature. -->
+<!-- Include screenshots or code snippets to demonstrate the bug. -->
 
-### Discussion
-
-<!-- Optionally, include any additional information or points for discussion. -->
+{{/enhancement}}
+{{/labels}}
