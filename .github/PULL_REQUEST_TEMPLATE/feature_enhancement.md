@@ -1,5 +1,3 @@
----
-
 ## Feature Enhancement
 
 ### Description
@@ -25,5 +23,3 @@
 ### Discussion
 
 <!-- Optionally, include any additional information or points for discussion. -->
-
----
