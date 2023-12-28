@@ -21,6 +21,7 @@ async function getPaginated(model, page = 1, pageSize = 10) {
       const users = await model
         .find()
         .skip((page - 1) * pageSize)
+        // .sort(userVar)
         .limit(pageSize)
         .exec();
 
