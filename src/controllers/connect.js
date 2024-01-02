@@ -10,7 +10,7 @@ let userModel;
  */
 async function connect(user) {
   try {
-    await mongoose.connect(getMongoUrl());
+    // await mongoose.connect(getMongoUrl());
 
     // Assume userModel is provided as a parameter
     userModel = user;
